@@ -1,5 +1,9 @@
 # Synthient
 
+[![Discord](https://img.shields.io/badge/Discord-join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/82p23Fguj2)
+[![Latest release](https://img.shields.io/github/v/release/guyverphd/Synthient)](https://github.com/guyverphd/Synthient/releases/latest)
+[![License: AGPL v3](https://img.shields.io/badge/license-AGPL--3.0-blue)](LICENSE)
+
 **A real Windows DAW with Claude built in.** Write, edit and mix songs yourself with a piano roll,
 drum grid, VST3 instruments and effects, automation and mixing, or have Claude work alongside
 you: describe a part in plain words and watch it appear on the tracks, then grab it and change it
@@ -23,6 +27,7 @@ Open source under the GNU AGPL v3 (see [LICENSE](LICENSE)), as JUCE (AGPLv3) and
 - [Install](#install)
 - [Build from source](#build-from-source)
 - [How it works](#how-it-works)
+- [Community](#community)
 
 ## Two ways to work
 
@@ -288,5 +293,8 @@ The app is written to `build/app/ClaudeDAW_artefacts/Release/Synthient.exe`. To 
 - Synthient hosts VST3 only (no VST2).
 - Windows only.
 
-Found a bug? [Open an issue](https://github.com/guyverphd/Synthient/issues). After a crash,
-Synthient offers to make a report you can attach.
+## Community
+
+- **[Join the Discord](https://discord.gg/82p23Fguj2)** to share songs you made, ask questions, and suggest features.
+- Found a bug? [Open an issue](https://github.com/guyverphd/Synthient/issues). After a crash,
+  Synthient offers to make a report you can attach.
