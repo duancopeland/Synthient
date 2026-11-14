@@ -2,7 +2,7 @@
 
 A standalone Windows DAW with Claude built in: multitrack MIDI/audio, VST3 instruments and effects, and a prompt panel where Claude writes, edits and arranges parts.
 
-Open source under the GNU AGPL v3 (see [LICENSE](LICENSE)), as JUCE (AGPLv3) and Tracktion Engine (GPLv3 or later) require. Third-party plug-ins, SoundFonts and sample libraries are not in this repo; see [docs/ADDON_DOWNLOADS.md](docs/ADDON_DOWNLOADS.md) and [library/NOTES.md](library/NOTES.md).
+Open source under the GNU AGPL v3 (see [LICENSE](LICENSE)), as JUCE (AGPLv3) and Tracktion Engine (GPLv3 or later) require. Third-party plug-ins, SoundFonts and sample libraries are not in this repo; [docs/LIBRARY_SETUP.md](docs/LIBRARY_SETUP.md) explains where to get each one and where it goes.
 
 ## Stack
 
@@ -72,8 +72,9 @@ One package: `packaging/dist/Synthient-0.1.0-win64.zip` (about 5 GB). Unzip it a
    - `tracktion_engine` with submodules (JUCE's submodule URL must be HTTPS). Tested with Tracktion Engine `a5e4499` and JUCE `7ff644f`.
    - Apply the local JUCE fix: `git -C external/tracktion_engine apply ../../patches/juce-webbrowser-emitEvent.patch`
    - WebView2 SDK NuGet package unpacked to `external/webview2/Microsoft.Web.WebView2`
-3. Analysis tools: run `analysis\setup.cmd` (add `--with-stems` for Demucs). See `analysis/README.md`. An installed copy without its own tools uses the folder named in `%APPDATA%\Synthient\analysis_path.txt`.
-4. Build (Visual Studio 2022 with the C++ workload; CMake ships with VS):
+3. Optional instrument library (Surge XT, orchestra, piano, General MIDI sounds): follow [docs/LIBRARY_SETUP.md](docs/LIBRARY_SETUP.md), then check it with `python library\tools\check_library.py`.
+4. Analysis tools: run `analysis\setup.cmd` (add `--with-stems` for Demucs). See `analysis/README.md`. An installed copy without its own tools uses the folder named in `%APPDATA%\Synthient\analysis_path.txt`.
+5. Build (Visual Studio 2022 with the C++ workload; CMake ships with VS):
 
 ```
 cmake -S . -B build/app -G "Visual Studio 17 2022" -A x64
