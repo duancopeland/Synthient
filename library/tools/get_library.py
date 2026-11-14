@@ -56,6 +56,9 @@ def download(url, dest, size=None, sha256=None, tries=4):
     for attempt in range(1, tries + 1):
         try:
             have = os.path.getsize(part) if os.path.exists(part) else 0
+            if size and have >= size:  # complete or oversized leftover: the server would refuse the range
+                os.remove(part)
+                have = 0
             req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
             if have:
                 req.add_header("Range", f"bytes={have}-")
@@ -94,6 +97,8 @@ def download(url, dest, size=None, sha256=None, tries=4):
             return
         except Exception as e:  # noqa: BLE001 - report and retry any network/disk error
             sys.stdout.write("\n")
+            if (getattr(e, "code", None) == 416 or isinstance(e, IOError) and "expected" in str(e)) and os.path.exists(part):
+                os.remove(part)  # a bad partial file: start this download over
             if attempt == tries:
                 raise
             print(f"    {e}; retrying ({attempt}/{tries - 1})...")
