@@ -50,6 +50,7 @@ if (-not $NoShortcuts) {
     $shell = New-Object -ComObject WScript.Shell
     foreach ($lnkPath in @(
             (Join-Path ([Environment]::GetFolderPath('Programs')) 'Synthient.lnk'),
+            (Join-Path ([Environment]::GetFolderPath('Programs')) 'Synthient - Get Instruments.lnk'),
             (Join-Path ([Environment]::GetFolderPath('Desktop'))  'Synthient.lnk'))) {
         if (Test-Path -LiteralPath $lnkPath) {
             # Only remove shortcuts that point into this install.

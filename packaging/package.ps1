@@ -4,11 +4,13 @@
   packaging\dist\Synthient-<version>-win64.zip.
 
 .DESCRIPTION
-  Does not build anything. One package with everything: the built Release exe (no .pdb),
-  ui\, the Starter Kit, the instrument library (plug-ins, sampled instruments, Surge patches),
-  the analysis tools as a self-contained Python (librosa, Basic Pitch, Demucs + its model),
+  Does not build anything. The default package has the built Release exe (no .pdb), ui\,
+  the Starter Kit, the analysis tools as a self-contained Python (librosa, Basic Pitch,
+  Demucs + its model), the instrument library's indexes and tools (no plug-ins or samples:
+  install.ps1 downloads those from each project with library\tools\get_library.py),
   an empty instruments\ folder, and the installer scripts from this folder.
-  -AppOnly leaves out the library and Python for a quick test package.
+  -WithLibrary also bundles the whole instrument library (about 5 GB) for offline installs.
+  -AppOnly leaves out the library and Python for a quick update package.
 
 .PARAMETER Version
   Version stamped into the package name and version.txt. Default 0.1.0.
@@ -21,8 +23,9 @@ param(
     [string]$Version = '0.1.0',
     [string]$ExePath,
     [switch]$AppOnly,
-    [switch]$WithLibrary   # old option, now the default; kept so existing commands still work
+    [switch]$WithLibrary   # bundle the full instrument library instead of downloading it at install
 )
+if ($AppOnly -and $WithLibrary) { throw '-AppOnly and -WithLibrary cannot be combined.' }
 
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
@@ -33,7 +36,7 @@ if (-not $ExePath) { $ExePath = Join-Path $RepoRoot 'build\app\ClaudeDAW_artefac
 
 $Dist    = Join-Path $PackagingDir 'dist'
 $Stage   = Join-Path $Dist $(if ($AppOnly) { 'Synthient-update' } else { 'Synthient' })
-$ZipPath = Join-Path $Dist ("Synthient-$Version-win64" + $(if ($AppOnly) { '-apponly' } else { '' }) + '.zip')
+$ZipPath = Join-Path $Dist ("Synthient-$Version-win64" + $(if ($AppOnly) { '-apponly' } elseif ($WithLibrary) { '-full' } else { '' }) + '.zip')
 
 function Copy-WithRetry([string]$Src, [string]$Dst, [int]$Tries = 30) {
     for ($i = 1; $i -le $Tries; $i++) {
@@ -80,23 +83,22 @@ Invoke-Robocopy $AnaSrc (Join-Path $Stage 'analysis') @(
 # 3b. Built-in Starter Kit drum samples and their index (the generator script stays out).
 Invoke-Robocopy (Join-Path $RepoRoot 'samples') (Join-Path $Stage 'samples') @('/XF', '*.py')
 
-# 3c. Instrument library (plug-ins, sampled instruments, indexes). Build tools stay out.
-if (-not $AppOnly) {
-    $LibSrc = Join-Path $RepoRoot 'library'
-    if (-not (Test-Path -LiteralPath (Join-Path $LibSrc 'index.json'))) { throw "No instrument library at $LibSrc (index.json missing)." }
-    # The old 3-second GeneralUser renders are superseded by sfz/GeneralUser-GS.
-    Invoke-Robocopy $LibSrc (Join-Path $Stage 'library') @('/XD', 'tools', '__pycache__', 'downloads', 'GeneralUser-GS-extracted', '/XF', 'index.json.bak', 'extract.log')
+# 3c. Instrument library: every package carries the small index files, the download list and
+#     the library tools (downloader, checker, GeneralUser converter), which robocopy merges into
+#     an existing library folder on install.
+$LibSrc = Join-Path $RepoRoot 'library'
+New-Item -ItemType Directory -Force -Path (Join-Path $Stage 'library') | Out-Null
+foreach ($f in 'index.json', 'surge_patches.json', 'obxf_patches.json', 'sources.json', 'NOTES.md') {
+    $src = Join-Path $LibSrc $f
+    if (-not (Test-Path -LiteralPath $src)) { throw "Missing library\$f" }
+    Copy-Item -LiteralPath $src -Destination (Join-Path $Stage "library\$f")
 }
+Invoke-Robocopy (Join-Path $LibSrc 'tools') (Join-Path $Stage 'library\tools') @('/XD', 'sfizz', '__pycache__', '/XF', '*.pyc')
 
-# 3c-2. The update package still carries the library's small index files (new patch lists etc.),
-#       which robocopy merges into the existing library folder on install.
-if ($AppOnly) {
-    $LibSrc = Join-Path $RepoRoot 'library'
-    New-Item -ItemType Directory -Force -Path (Join-Path $Stage 'library') | Out-Null
-    foreach ($f in 'index.json', 'surge_patches.json', 'obxf_patches.json') {
-        $src = Join-Path $LibSrc $f
-        if (Test-Path -LiteralPath $src) { Copy-Item -LiteralPath $src -Destination (Join-Path $Stage "library\$f") }
-    }
+# 3c-2. -WithLibrary: the plug-ins and samples themselves (about 5 GB).
+if ($WithLibrary) {
+    # The old 3-second GeneralUser renders are superseded by sfz/GeneralUser-GS.
+    Invoke-Robocopy $LibSrc (Join-Path $Stage 'library') @('/XD', 'tools', '__pycache__', 'downloads', '.downloads', 'GeneralUser-GS-extracted', '/XF', 'index.json.bak*', 'extract.log')
 }
 
 # 3d. Analysis tools as a self-contained Python: the base interpreter the dev venv was made from,
@@ -121,7 +123,7 @@ Set-Content -LiteralPath (Join-Path $Inst 'README.txt') -Encoding ASCII -Value @
     'from the Plug-ins dialog.')
 
 # 5. Installer scripts and metadata.
-foreach ($f in 'install.ps1', 'uninstall.ps1', 'Install Synthient.cmd') {
+foreach ($f in 'install.ps1', 'uninstall.ps1', 'Install Synthient.cmd', 'Get Instruments.cmd') {
     Copy-Item -LiteralPath (Join-Path $PackagingDir $f) -Destination (Join-Path $Stage $f) -Force
 }
 Set-Content -LiteralPath (Join-Path $Stage 'version.txt') -Value $Version -Encoding ASCII

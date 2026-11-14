@@ -18,3 +18,6 @@ library/sfz/
 library/tools/sfizz/
 library/*.bak*
 .claude/
+library/.downloads/
+library/.installed/
+*.partial

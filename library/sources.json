@@ -1,0 +1,189 @@
+{
+  "about": "Where get_library.py downloads each part of the instrument library from. Versions are pinned to the ones library/index.json, surge_patches.json and obxf_patches.json were built from. 'place' maps a path inside the archive ('*' = its single top folder) to a path in library/. 'size' and 'sha256' are checked when given; GitHub source archives get neither, because they are not byte-stable.",
+  "parts": [
+    {
+      "id": "surge",
+      "title": "Surge XT 1.3.4 synth + 2,900 patches",
+      "version": "1.3.4",
+      "license": "GPL-3.0",
+      "disk_mb": 420,
+      "files": [
+        {
+          "name": "surge-xt-win64-1.3.4-portable-install.zip",
+          "url": "https://github.com/surge-synthesizer/releases-xt/releases/download/1.3.4/surge-xt-win64-1.3.4-portable-install.zip",
+          "size": 301759660,
+          "sha256": "a5f2376702ad218c0382640ed0c7b9ebb222ba2410a210879899c0f726859d8e",
+          "place": {
+            "Surge Synth Team/Surge XT.vst3": "plugins/Surge XT.vst3",
+            "Surge Synth Team/Surge XT Effects.vst3": "plugins/Surge XT Effects.vst3",
+            "Surge Synth Team/SurgeXTData": "plugins/SurgeXTData",
+            "README.txt": "plugins/licenses/SurgeXT/README-portable.txt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "dexed",
+      "title": "Dexed 1.0.1 (DX7 FM synth)",
+      "version": "1.0.1",
+      "license": "GPL-3.0",
+      "disk_mb": 10,
+      "files": [
+        {
+          "name": "Dexed-1.0.1-win.zip",
+          "url": "https://github.com/asb2m10/dexed/releases/download/v1.0.1/Dexed-1.0.1-win.zip",
+          "size": 9742538,
+          "sha256": "1f118445f2c5c411636bb41ddf8b456db09af74cd38f9ede8a93a01020505f05",
+          "place": {
+            "Dexed.vst3": "plugins/Dexed.vst3",
+            "LICENSE": "plugins/licenses/Dexed/LICENSE"
+          }
+        }
+      ]
+    },
+    {
+      "id": "obxf",
+      "title": "OB-Xf 1.0.3 (Oberheim-style synth) + patches",
+      "version": "1.0.3",
+      "license": "GPL-3.0",
+      "disk_mb": 40,
+      "files": [
+        {
+          "name": "ob-xf-Windows-v1.0.3.zip",
+          "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-Windows-v1.0.3.zip",
+          "size": 9222959,
+          "sha256": "149fda0649daf8a3aa0851801f92515f0dbf6203acf33c0edc7d3c445e80b1e7",
+          "place": {
+            "obxf_products/OB-Xf.vst3": "plugins/OB-Xf.vst3",
+            "obxf_products/LICENSE": "plugins/licenses/OB-Xf/LICENSE",
+            "obxf_products/Readme.txt": "plugins/licenses/OB-Xf/Readme.txt"
+          }
+        },
+        {
+          "name": "ob-xf-assets-v1.0.3.zip",
+          "url": "https://github.com/surge-synthesizer/OB-Xf/releases/download/v1.0.3/ob-xf-assets-v1.0.3.zip",
+          "size": 23966440,
+          "sha256": "6d324e520694167f22dc97912088bafea52bb6e348916056482a5f79434c6ec0",
+          "place": {
+            "Surge Synth Team": "plugins/OB-Xf-assets/Surge Synth Team"
+          }
+        }
+      ]
+    },
+    {
+      "id": "juicysf",
+      "title": "juicysfplugin 3.1.0 (SoundFont player)",
+      "version": "3.1.0",
+      "license": "GPL-3.0",
+      "disk_mb": 20,
+      "files": [
+        {
+          "name": "juicysfplugin-3.1.0-win-x64.zip",
+          "url": "https://github.com/Birch-san/juicysfplugin/releases/download/3.1.0/juicysfplugin-3.1.0-win-x64.zip",
+          "size": 16237789,
+          "sha256": "21a706090d0a72511756dfd65d6a3c0711257c94b707679346e04d182dc178a0",
+          "place": {
+            "win_x64/VST3/juicysfplugin.vst3": "plugins/juicysfplugin.vst3",
+            "win_x64/LICENSE.txt": "plugins/licenses/juicysfplugin/LICENSE.txt",
+            "win_x64/README.txt": "plugins/licenses/juicysfplugin/README.txt",
+            "win_x64/licenses_of_dependencies": "plugins/licenses/juicysfplugin/licenses_of_dependencies"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vsco",
+      "title": "VSCO 2 Community Edition 1.1.0 (orchestra)",
+      "version": "1.1.0",
+      "license": "CC0-1.0",
+      "disk_mb": 3100,
+      "files": [
+        {
+          "name": "VSCO-2-CE-1.1.0.zip",
+          "url": "https://github.com/sgossner/VSCO-2-CE/archive/refs/tags/1.1.0.zip",
+          "mb": 2900,
+          "place": {
+            "*": "sfz/VSCO-2-CE"
+          }
+        }
+      ]
+    },
+    {
+      "id": "salamander",
+      "title": "Salamander Grand Piano V3 (44.1 kHz/16-bit)",
+      "version": "V3+20161209",
+      "license": "CC-BY-3.0 (credit: Salamander Grand Piano by Alexander Holm)",
+      "disk_mb": 1150,
+      "files": [
+        {
+          "name": "SalamanderGrandPianoV3+20161209_44khz16bit.tar.xz",
+          "url": "https://freepats.zenvoid.org/Piano/SalamanderGrandPiano/SalamanderGrandPianoV3+20161209_44khz16bit.tar.xz",
+          "size": 412313804,
+          "sha256": "58750eb1366761e187f71ddb9b932355ea894d28ec4331e74ab8acb44c819936",
+          "place": {
+            "*": "sfz/Salamander"
+          }
+        }
+      ],
+      "write": {
+        "sfz/Salamander/CREDIT.txt": "Salamander Grand Piano by Alexander Holm, CC-BY 3.0.\nCredit it this way when you release music made with it.\nhttps://creativecommons.org/licenses/by/3.0/"
+      }
+    },
+    {
+      "id": "meatbass",
+      "title": "Karoryfer Meatbass (upright bass)",
+      "version": "ac9e859",
+      "license": "CC0-1.0",
+      "disk_mb": 290,
+      "files": [
+        {
+          "name": "karoryfer.meatbass-ac9e859.zip",
+          "url": "https://github.com/sfzinstruments/karoryfer.meatbass/archive/ac9e859564bda286ab5ec672d00ff1aa2fef2895.zip",
+          "mb": 244,
+          "place": {
+            "*": "sfz/Meatbass"
+          }
+        }
+      ]
+    },
+    {
+      "id": "emilyguitar",
+      "title": "Karoryfer Emilyguitar (electric guitar)",
+      "version": "b4920dc",
+      "license": "CC0-1.0",
+      "disk_mb": 125,
+      "files": [
+        {
+          "name": "karoryfer.emilyguitar-b4920dc.zip",
+          "url": "https://github.com/sfzinstruments/karoryfer.emilyguitar/archive/b4920dc662fd9cad6dcaccdeecffdd91c8725d8c.zip",
+          "mb": 99,
+          "place": {
+            "*": "sfz/Emilyguitar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "generaluser",
+      "title": "GeneralUser GS 2.0.3 (128 General MIDI sounds + drums)",
+      "version": "2.0.3",
+      "license": "GeneralUser GS License v2.0 (free use, including commercial)",
+      "disk_mb": 70,
+      "files": [
+        {
+          "name": "GeneralUser-GS-684543d.zip",
+          "url": "https://github.com/mrbumpy409/GeneralUser-GS/archive/684543d5e5efaef08d02be50dcda8d552478fa60.zip",
+          "mb": 62,
+          "place": {
+            "*/GeneralUser-GS.sf2": "sf2/GeneralUser-GS.sf2",
+            "*/documentation/LICENSE.txt": "sf2/GeneralUser-GS-LICENSE.txt",
+            "*/documentation/README.md": "sf2/GeneralUser-GS-README.md",
+            "*/documentation/CHANGELOG.md": "sf2/GeneralUser-GS-CHANGELOG.md"
+          }
+        }
+      ],
+      "post": "sf2_to_sfz.py",
+      "check": ["sfz/GeneralUser-GS/Drums - Standard Kit.sfz"]
+    }
+  ]
+}

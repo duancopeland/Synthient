@@ -32,6 +32,8 @@ param(
     [switch]$SetupAnalysis,
     [switch]$WithStems,
     [switch]$SkipApiKey,
+    [switch]$GetLibrary,          # download the instrument library without asking (also in -Quiet runs)
+    [switch]$SkipLibrary,         # don't download it (get it later with "Get Instruments.cmd")
     [switch]$Quiet
 )
 
@@ -69,6 +71,31 @@ function Test-WebView2 {
     return $null
 }
 
+# Instrument library parts (library\sources.json) that none of the given library folders has yet.
+function Get-MissingLibraryParts([string[]]$LibDirs) {
+    $sources = Join-Path $SourceDir 'library\sources.json'
+    if (-not (Test-Path -LiteralPath $sources)) { return @() }
+    $parts = (Get-Content -LiteralPath $sources -Raw -Encoding UTF8 | ConvertFrom-Json).parts
+    foreach ($p in $parts) {
+        $paths = @($p.files | ForEach-Object { $_.place.PSObject.Properties.Value })
+        if ($p.PSObject.Properties.Name -contains 'check') { $paths += @($p.check) }
+        $have = $false
+        foreach ($d in $LibDirs) {
+            if (-not $d) { continue }
+            $all = $true
+            foreach ($rel in $paths) { if (-not (Test-Path -LiteralPath (Join-Path $d $rel))) { $all = $false; break } }
+            if ($all) { $have = $true; break }
+        }
+        if (-not $have) { $p }
+    }
+}
+
+function Get-LibraryDownloadBytes($Parts) {
+    $sum = [int64]0
+    foreach ($p in $Parts) { foreach ($f in $p.files) { $sum += $(if ($f.PSObject.Properties.Name -contains 'size') { [int64]$f.size } else { [int64]($f.mb * 1MB) }) } }
+    return $sum
+}
+
 # ---- sanity -----------------------------------------------------------------
 $SrcExe = Join-Path $SourceDir 'Synthient.exe'
 if (-not (Test-Path -LiteralPath $SrcExe)) { throw "Synthient.exe not found next to install.ps1 ($SourceDir). Extract the whole zip first." }
@@ -80,19 +107,28 @@ if (Test-Path -LiteralPath $verFile) { $Version = (Get-Content -LiteralPath $ver
 
 # ---- where to install ------------------------------------------------------------
 $packageBytes = (Get-ChildItem -LiteralPath $SourceDir -Recurse -File -Force -ErrorAction SilentlyContinue | Measure-Object Length -Sum).Sum
-$packageGb = [Math]::Round($packageBytes / 1GB, 1)
+# The instrument library is downloaded after the copy unless this package (a -WithLibrary one)
+# or the existing install already has it; count it in the space needed.
+$libParts = @(Get-MissingLibraryParts @((Join-Path $SourceDir 'library'), (Join-Path $InstallDir 'library')))
+$libBytes = if ($SkipLibrary) { [int64]0 } else { [int64](($libParts | ForEach-Object { $_.disk_mb } | Measure-Object -Sum).Sum) * 1MB }
+$packageGb = [Math]::Round(($packageBytes + $libBytes) / 1GB, 1)
 if (-not $PSBoundParameters.ContainsKey('InstallDir') -and (Test-Interactive)) {
     Say ''
-    Say "Synthient needs about $packageGb GB (app, 200+ instruments, Surge XT synth, analysis and stem tools)."
+    Say ("Synthient needs about $packageGb GB (app, analysis and stem tools" + $(if ($libBytes) { ', and the 200+ instruments and synths it downloads' } else { ', 200+ instruments, Surge XT synth' }) + ').')
     $answer = Read-Host "Install to $InstallDir ? Press Enter to accept, or type another folder (e.g. D:\Synthient-App)"
-    if ($answer.Trim()) { $InstallDir = $answer.Trim().Trim('"') }
+    if ($answer.Trim()) {
+        $InstallDir = $answer.Trim().Trim('"')
+        $libParts = @(Get-MissingLibraryParts @((Join-Path $SourceDir 'library'), (Join-Path $InstallDir 'library')))
+        $libBytes = if ($SkipLibrary) { [int64]0 } else { [int64](($libParts | ForEach-Object { $_.disk_mb } | Measure-Object -Sum).Sum) * 1MB }
+    }
 }
 
 $InstallDir = [IO.Path]::GetFullPath($InstallDir)
 try {
     $drive = New-Object IO.DriveInfo ([IO.Path]::GetPathRoot($InstallDir))
-    if ($drive.AvailableFreeSpace -lt $packageBytes * 1.1) {
-        throw ("Not enough free space on {0}: {1:N1} GB free, about {2} GB needed. Run the installer again and choose another drive." -f $drive.Name, ($drive.AvailableFreeSpace / 1GB), $packageGb)
+    $needBytes = $packageBytes * 1.1 + $libBytes
+    if ($drive.AvailableFreeSpace -lt $needBytes) {
+        throw ("Not enough free space on {0}: {1:N1} GB free, about {2:N1} GB needed. Run the installer again and choose another drive." -f $drive.Name, ($drive.AvailableFreeSpace / 1GB), ($needBytes / 1GB))
     }
 } catch [System.ArgumentException] { }
 $DstExe     = Join-Path $InstallDir 'Synthient.exe'
@@ -115,7 +151,7 @@ if (-not $sameDir) {
     # Files that are already up to date are listed too, so a reinstall moves quickly.
     $done = [int64]0; $files = 0
     $watch = [Diagnostics.Stopwatch]::StartNew(); $lastDraw = -1000
-    & robocopy.exe $SourceDir $InstallDir /E /V /BYTES /NDL /NJH /NJS /NP /R:3 /W:5 /XF 'Install Synthient.cmd' | ForEach-Object {
+    & robocopy.exe $SourceDir $InstallDir /E /V /BYTES /NDL /NJH /NJS /NP /R:3 /W:5 /XF 'Install Synthient.cmd' /XD '.downloads' | ForEach-Object {
         if ($_ -match '^\s*(?:[A-Za-z* ]+?)?\s+(\d+)\s+\S') {
             $done += [int64]$Matches[1]; $files++
             if ($watch.ElapsedMilliseconds - $lastDraw -ge 250) {
@@ -141,18 +177,6 @@ New-Item -ItemType Directory -Force -Path (Join-Path $InstallDir 'instruments') 
 # and PowerShell do not block the app or the uninstaller.
 Get-ChildItem -LiteralPath $InstallDir -Recurse -File -Include *.exe, *.ps1, *.cmd, *.py, *.js, *.html, *.css -ErrorAction SilentlyContinue |
     Unblock-File -ErrorAction SilentlyContinue
-
-# ---- OB-Xf factory patches ---------------------------------------------------------
-# OB-Xf only looks for its patches in %LOCALAPPDATA%\Surge Synth Team\OB-Xf, so copy the
-# ones shipped in the full package there. Existing files (the user's own) are left alone.
-$obxfSrc = Join-Path $InstallDir 'library\plugins\OB-Xf-assets\Surge Synth Team\OB-Xf'
-if (Test-Path -LiteralPath $obxfSrc) {
-    $obxfDst = Join-Path $env:LOCALAPPDATA 'Surge Synth Team\OB-Xf'
-    & robocopy.exe $obxfSrc $obxfDst /E /XC /XN /XO /NFL /NDL /NJH /NJS /NP /R:1 /W:1 | Out-Null
-    if ($LASTEXITCODE -ge 8) { Warn "Could not copy the OB-Xf patches (robocopy exit $LASTEXITCODE)." }
-    else { Say "OB-Xf patches: $obxfDst" }
-    $global:LASTEXITCODE = 0
-}
 
 # ---- the old ClaudeDAW install (this app's previous name) -------------------------------
 $oldKey = 'HKCU:\Software\Microsoft\Windows\CurrentVersion\Uninstall\ClaudeDAW'
@@ -216,6 +240,50 @@ if ((Test-Path -LiteralPath (Join-Path $oldDir 'ClaudeDAW.exe')) -and ([IO.Path]
     }
 }
 
+# ---- instrument library ------------------------------------------------------------------
+# Plug-ins and samples come from each project's own release (library\sources.json), downloaded by
+# library\tools\get_library.py with the bundled Python. A failure only warns: the app works
+# without them, and "Get Instruments.cmd" retries and skips the parts that finished.
+$libDir   = Join-Path $InstallDir 'library'
+$py       = Join-Path $InstallDir 'analysis\python\python.exe'
+$getLib   = Join-Path $libDir 'tools\get_library.py'
+$getLibCmd = Join-Path $InstallDir 'Get Instruments.cmd'
+$libParts = @(Get-MissingLibraryParts @($libDir))
+if ($libParts.Count -and -not $SkipLibrary -and (Test-Path -LiteralPath $getLib)) {
+    $dlGb = [Math]::Round((Get-LibraryDownloadBytes $libParts) / 1GB, 1)
+    $want = [bool]$GetLibrary
+    if (-not $want -and (Test-Interactive)) {
+        Say ''
+        Say "Synthient's instruments and synths come from their own projects (Surge XT, VSCO orchestra, Salamander piano, ...)."
+        $ans = Read-Host "Download them now? About $dlGb GB; it takes a while on a slow connection. [Y/n]"
+        $want = $ans -notmatch '^(n|no)$'
+    }
+    if ($want) {
+        if (-not (Test-Path -LiteralPath $py)) {
+            Warn "Can't download the instruments: Synthient's Python ($py) is missing from this package."
+        } else {
+            Say ''
+            & $py $getLib
+            if ($LASTEXITCODE -ne 0) { Warn "Some instruments weren't downloaded. Run `"$getLibCmd`" later to finish; parts that are done are skipped." }
+            $global:LASTEXITCODE = 0
+        }
+    } else {
+        Say "Skipped the instruments. Get them later with `"$getLibCmd`" (also in the Start Menu)."
+    }
+}
+
+# ---- OB-Xf factory patches ---------------------------------------------------------
+# OB-Xf only looks for its patches in %LOCALAPPDATA%\Surge Synth Team\OB-Xf, so copy them
+# there. Existing files (the user's own) are left alone.
+$obxfSrc = Join-Path $InstallDir 'library\plugins\OB-Xf-assets\Surge Synth Team\OB-Xf'
+if (Test-Path -LiteralPath $obxfSrc) {
+    $obxfDst = Join-Path $env:LOCALAPPDATA 'Surge Synth Team\OB-Xf'
+    & robocopy.exe $obxfSrc $obxfDst /E /XC /XN /XO /NFL /NDL /NJH /NJS /NP /R:1 /W:1 | Out-Null
+    if ($LASTEXITCODE -ge 8) { Warn "Could not copy the OB-Xf patches (robocopy exit $LASTEXITCODE)." }
+    else { Say "OB-Xf patches: $obxfDst" }
+    $global:LASTEXITCODE = 0
+}
+
 # ---- shortcuts ------------------------------------------------------------------
 if (-not $NoShortcuts) {
     $shell = New-Object -ComObject WScript.Shell
@@ -229,6 +297,14 @@ if (-not $NoShortcuts) {
         $lnk.Description      = 'Synthient - DAW with Claude built in'
         $lnk.Save()
         Say "Shortcut: $lnkPath"
+    }
+    if (Test-Path -LiteralPath $getLibCmd) {
+        $lnk = $shell.CreateShortcut((Join-Path ([Environment]::GetFolderPath('Programs')) 'Synthient - Get Instruments.lnk'))
+        $lnk.TargetPath       = $getLibCmd
+        $lnk.WorkingDirectory = $InstallDir
+        $lnk.IconLocation     = "$DstExe,0"
+        $lnk.Description      = "Download or finish downloading Synthient's instruments and synths"
+        $lnk.Save()
     }
 }
 

@@ -63,7 +63,9 @@ bridge (`Source/Bridge.cpp`, 127.0.0.1 + per-session token in `bridge.json`) for
 
 ## Install (users)
 
-One package: `packaging/dist/Synthient-0.1.0-win64.zip` (about 5 GB). Unzip it and double-click `Install Synthient.cmd` (per user, no admin). It asks where to install (default `%LOCALAPPDATA%\Programs\Synthient`), checks free space, copies the app, the instrument library and plug-ins, the analysis and stem tools (a self-contained Python with Demucs and its model), OB-Xf patches, makes Start Menu and desktop shortcuts, asks for the Anthropic API key (hidden input, or replace an existing one) and offers to start the app. Build it with `packaging/package.ps1` after building the app (`-AppOnly` for a quick test zip).
+Unzip `Synthient-<version>-win64.zip` and double-click `Install Synthient.cmd` (per user, no admin). It asks where to install (default `%LOCALAPPDATA%\Programs\Synthient`), checks free space, copies the app and the analysis and stem tools (a self-contained Python with Demucs and its model), then offers to download the instrument library (Surge XT, Dexed, OB-Xf, VSCO orchestra, Salamander piano, Karoryfer bass and guitar, General MIDI sounds; about 4 GB) from each project's own release. It makes Start Menu and desktop shortcuts (plus **Synthient - Get Instruments** to download the library later or finish it), asks for the Anthropic API key (hidden input, or replace an existing one) and offers to start the app.
+
+Build the package with `packaging/package.ps1` after building the app. `-WithLibrary` bundles the whole library instead (about 5 GB, for offline installs); `-AppOnly` makes a small update package. See `packaging/README.md`.
 
 ## Setup (developers)
 

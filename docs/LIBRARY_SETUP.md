@@ -9,8 +9,31 @@ All of it is free. Everything except the TAL plug-ins may be redistributed, but 
 still downloaded from its own project.
 
 Synthient runs without the library: you get the Starter Kit drums, the built-in synth,
-and any VST3 plug-ins you already have. Install only the parts you want. When you're done,
-check what's there with:
+and any VST3 plug-ins you already have.
+
+## The easy way: let Synthient download it
+
+The installer offers to download everything (about 4 GB) from each project's own release,
+pinned to the versions the indexes were built from, with checksums where the files are
+byte-stable. To get it later, or to finish an interrupted download, run **Get Instruments**
+from the Start Menu (or `Get Instruments.cmd` in the install folder). Parts already installed
+are skipped.
+
+From a source checkout, run it with a Python 3.8+ that has numpy and soundfile (the
+`analysis\.venv` from `analysis\setup.cmd` has both):
+
+```
+analysis\.venv\Scripts\python.exe library\tools\get_library.py           # everything
+analysis\.venv\Scripts\python.exe library\tools\get_library.py --list    # what's installed
+analysis\.venv\Scripts\python.exe library\tools\get_library.py --only surge,dexed
+```
+
+The download list is [library/sources.json](../library/sources.json). The rest of this guide is
+the manual route, for when you want to fetch or place parts yourself.
+
+## Checking what's installed
+
+Check what's there with:
 
 ```
 python library\tools\check_library.py
@@ -38,7 +61,7 @@ library\
   sfz\
     VSCO-2-CE\   Salamander\   Meatbass\   Emilyguitar\   GeneralUser-GS\
   sf2\
-    GeneralUser-GS.sf2   GeneralUser-GS-extracted\
+    GeneralUser-GS.sf2
 ```
 
 ## 1. Synth plug-ins
@@ -53,8 +76,8 @@ folders inside `library\plugins\` (below), because Claude loads their patches fr
 | **Dexed** (DX7 FM) | <https://github.com/asb2m10/dexed/releases> | `Dexed.vst3` |
 | **OB-Xf** (Oberheim-style poly) | <https://github.com/surge-synthesizer/OB-Xf/releases> | See below. |
 | juicysfplugin (SoundFont player) | <https://github.com/Birch-san/juicysfplugin/releases> | Optional |
-| Chow Tape Model (tape saturation) | <https://github.com/jatinchowdhury18/AnalogTapeModel/releases> | Optional |
-| Odin 2 (synth) | <https://thewavewarden.com/odin2> | Optional |
+| Chow Tape Model (tape saturation) | <https://github.com/jatinchowdhury18/AnalogTapeModel/releases> | Optional; installer only, so not downloaded automatically |
+| Odin 2 (synth) | <https://thewavewarden.com/odin2> | Optional; installer only, so not downloaded automatically |
 
 **Surge XT.** Synthient needs the factory data at `library\plugins\SurgeXTData\`, next to
 `Surge XT.vst3`; it must contain `patches_factory\` and `patches_3rdparty\`. Use one of these:
@@ -93,15 +116,16 @@ All 128 General MIDI instruments and a drum kit, built from one SoundFont.
 1. Download <https://github.com/mrbumpy409/GeneralUser-GS> ("Code > Download ZIP"; the
    project has no release files).
 2. Copy `GeneralUser-GS.sf2` from it to `library\sf2\GeneralUser-GS.sf2`.
-3. Convert it, with the analysis Python (`analysis\setup.cmd` creates it; it needs numpy and soundfile):
+3. Convert it to SFZ instruments with the analysis Python (`analysis\setup.cmd` creates it;
+   it needs numpy and soundfile):
 
 ```
-analysis\.venv\Scripts\python.exe library\tools\sf2_extract.py
 analysis\.venv\Scripts\python.exe library\tools\sf2_to_sfz.py
 ```
 
-This writes `sf2\GeneralUser-GS-extracted\` and `sfz\GeneralUser-GS\` (about 1 GB, a few
-minutes). The licence allows any use, including commercial.
+This writes `sfz\GeneralUser-GS\` (about 30 MB, a minute or two). The licence allows any use,
+including commercial. (`sf2_extract.py` makes the older pre-rendered WAVs in
+`sf2\GeneralUser-GS-extracted\`; Synthient doesn't need them.)
 
 ## 4. TAL plug-ins (optional)
 

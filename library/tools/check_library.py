@@ -36,11 +36,12 @@ def load(name):
 
 print(f"Library: {LIB}\n")
 
-# 1. Sampled instruments (index.json): every .sfz file and every pre-rendered region must exist.
+# 1. Sampled instruments (index.json). The app plays an instrument's .sfz when it has one; the
+#    "regions" list is only the fallback for entries without one.
 print("Sampled instruments (index.json)")
 by_source = defaultdict(lambda: [0, 0, None])  # total, missing, first missing path
 for inst in load("index.json")["instruments"]:
-    paths = ([inst["sfz"]] if inst.get("sfz") else []) + [r["path"] for r in inst.get("regions", [])]
+    paths = [inst["sfz"]] if inst.get("sfz") else [r["path"] for r in inst.get("regions", [])]
     missing = [p for p in paths if not exists(p)]
     entry = by_source[inst["source"]]
     entry[0] += 1
