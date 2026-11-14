@@ -1,0 +1,20 @@
+build/
+external/tracktion_engine/
+external/webview2/
+node_modules/
+*.log
+.env
+analysis/.venv/
+analysis/models/
+analysis/tests/data/
+**/__pycache__/
+
+# Third-party binaries and content: not ours to redistribute, or too big for git.
+# Installed separately; see docs/ADDON_DOWNLOADS.md and library/NOTES.md.
+instruments/*.vst3/
+library/plugins/
+library/sf2/
+library/sfz/
+library/tools/sfizz/
+library/*.bak*
+.claude/

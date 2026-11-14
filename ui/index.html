@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Synthient</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="group">
+      <button data-action="newSong" title="New song">New</button>
+      <button data-action="openSong" title="Open (Ctrl+O)">Open</button>
+      <button data-action="saveSong" title="Save (Ctrl+S)">Save</button>
+      <button data-action="saveAs">Save as</button>
+      <select id="export-menu" title="Render the song, stems or MIDI">
+        <option value="">Export…</option>
+        <option value="audio:wav">Song as WAV</option>
+        <option value="audio:mp3">Song as MP3</option>
+        <option value="audio:ogg">Song as OGG</option>
+        <option value="audio:flac">Song as FLAC</option>
+        <option value="stems:wav">Stems (one WAV per track)</option>
+        <option value="stems:mp3">Stems (one MP3 per track)</option>
+        <option value="midi:all">MIDI file (all tracks)</option>
+        <option value="midi:track">MIDI file (selected track)</option>
+      </select>
+    </div>
+    <div class="group">
+      <button id="play" title="Play / pause (Space)">▶</button>
+      <button id="stop" title="Stop; press again to return to start">■</button>
+      <span id="position" class="readout" title="Bar.beat">1.1</span>
+      <span id="time" class="readout time" title="Current time / song length">0:00.0 / 0:00</span>
+    </div>
+    <div class="group">
+      <button id="undo" title="Undo (Ctrl+Z)">↶</button>
+      <button id="redo" title="Redo (Ctrl+Y)">↷</button>
+    </div>
+    <div class="group">
+      <label>BPM <input id="bpm" type="number" min="40" max="300" step="1"></label>
+      <label>Bars <input id="bars" type="number" min="1" max="256" step="1"></label>
+      <label>Key
+        <select id="key-root"><option value="">—</option><option>C</option><option>C#</option><option>D</option><option>D#</option><option>E</option><option>F</option><option>F#</option><option>G</option><option>G#</option><option>A</option><option>A#</option><option>B</option></select>
+        <select id="key-scale"><option>minor</option><option>major</option><option>dorian</option><option>phrygian</option><option>lydian</option><option>mixolydian</option><option>harmonic minor</option><option>minor pentatonic</option><option>major pentatonic</option><option>blues</option></select>
+      </label>
+      <label title="Snap piano roll notes to the key"><input id="scale-lock" type="checkbox"> lock</label>
+    </div>
+    <div class="group right">
+      <span id="file-name" class="readout"></span>
+      <button data-action="scanPlugins" title="Scan and manage VST3 instruments and effects">Plug-ins</button>
+      <button data-action="audioSettings">Audio</button>
+      <button id="help-button" title="Keyboard shortcuts (?)">?</button>
+    </div>
+  </header>
+
+  <div class="workspace">
+    <div class="left">
+      <section class="arrangement" id="arrangement">
+        <div class="ruler-row">
+          <div class="header-spacer"><span class="zoom" title="Timeline zoom (or Ctrl + mouse wheel over the tracks)"><button id="zoom-out" title="Zoom out">−</button><button id="zoom-fit" title="Fit the whole song">Fit</button><button id="zoom-in" title="Zoom in">+</button></span><span id="selection-label"></span></div>
+          <canvas id="ruler"></canvas>
+        </div>
+        <div id="selection-bar" class="selection-bar empty">
+          <span id="selection-bar-label"></span>
+          <button data-quick="vary" title="Claude writes 3 variations as takes (V)">Variations ×3</button>
+          <button data-quick="simplify" title="Claude simplifies the selection">Simplify</button>
+          <button data-quick="busier" title="Claude adds energy and movement">Busier</button>
+          <button data-quick="continue" title="Claude continues the idea into the next bars">Continue</button>
+          <button data-quick="humanize" title="Loosen timing and velocity">Humanize</button>
+          <button data-quick="duplicate" title="Copy the selection right after itself (Ctrl+D)">Duplicate →</button>
+          <button data-quick="clear" title="Remove notes in the selection (Delete)">Clear</button>
+          <button data-quick="lock" title="Lock the selected bars (L)">🔒 Lock</button>
+          <button data-quick="unlock" title="Unlock the selected bars">Unlock</button>
+        </div>
+        <div id="tracks"></div>
+        <button id="add-track" class="add-track">+ Add track</button>
+        <p class="drop-hint">Drop audio (wav, mp3, ogg, flac) or MIDI files onto a track, or onto empty space for a new track.</p>
+      </section>
+
+      <section class="bottom" id="bottom">
+        <nav class="tabs">
+          <button data-tab="roll" class="active">Piano roll</button>
+          <button data-tab="drums">Drum grid</button>
+          <button data-tab="devices">Instrument &amp; effects</button>
+          <span id="bottom-track" class="bottom-track"></span>
+        </nav>
+        <div class="tab-body" id="tab-roll">
+          <canvas id="roll"></canvas>
+        </div>
+        <div class="tab-body hidden" id="tab-drums">
+          <div class="drum-bar"><button id="drum-prev">◀</button><span id="drum-page"></span><button id="drum-next">▶</button>
+            <span class="hint">Click to toggle a hit, Shift-click for an accent. Rows follow the Sampler's loaded sounds.</span></div>
+          <canvas id="drums"></canvas>
+        </div>
+        <div class="tab-body hidden" id="tab-devices"></div>
+      </section>
+    </div>
+
+    <aside class="chat">
+      <div class="log-wrap">
+      <div id="log" class="log">
+        <div class="msg system">Ask Claude to write or edit parts, add tracks, pick instruments and shape sounds. Select bars on a track first to change just that part.
+Click an example to put it in the box, then edit it or press Send.<div id="examples" class="examples"></div></div>
+      </div>
+        <button id="scroll-bottom" class="scroll-bottom hidden" title="Jump to the newest message">↓</button>
+      </div>
+      <div class="chat-tools">
+        <button id="upload-track" title="Analyze an audio file and discuss it with Claude">Upload track…</button>
+        <button id="separate-stems" title="Split a song into drums, bass, vocals and other with Demucs, in its own window">Separate stems…</button>
+        <label title="Also transcribe the uploaded track to MIDI notes"><input id="deep-analysis" type="checkbox"> MIDI</label>
+        <button id="sample-folder" title="Index a folder of samples so Claude can use them">Sample folder…</button>
+      </div>
+      <div class="chat-tools">
+        <label title="Claude applies the mix rules from producer memory automatically"><input id="auto-mix" type="checkbox" checked> Auto-mix</label>
+        <button id="memory-button" title="View and edit what Claude remembers about mixing and your preferences">Producer memory…</button>
+        <select id="model-select" title="Claude model: Opus gives the best results; Sonnet costs half as much"></select>
+        <button id="new-chat" title="Clear the chat and start a fresh conversation with Claude (cheaper; your song is kept)">Reset chat</button>
+        <button id="stop-claude" title="Stop Claude after its current step">Stop</button>
+        <label title="Play a short sound when Claude finishes"><input id="chime" type="checkbox" checked> chime</label>
+      </div>
+      <div id="cost-meter" class="cost-meter"></div>
+      <div id="claude-status" class="claude-status">Ready</div>
+      <form id="prompt-form">
+        <textarea id="prompt" rows="3" placeholder="Describe a part or a change…"></textarea>
+        <button id="send" type="submit">Send</button>
+      </form>
+    </aside>
+  </div>
+
+  <dialog id="help-dialog" class="app-dialog help">
+    <h3>Shortcuts</h3>
+    <table>
+      <tr><td>Drag on a track</td><td>Select bars (sent to Claude with your next message)</td></tr>
+      <tr><td>Ctrl + drag</td><td>Add another selection (any track)</td></tr>
+      <tr><td>Esc</td><td>Clear selections</td></tr>
+      <tr><td>V</td><td>3 variations of the selection, as takes</td></tr>
+      <tr><td>Ctrl + D</td><td>Duplicate the selection after itself</td></tr>
+      <tr><td>Delete</td><td>Clear selected notes / selected bars</td></tr>
+      <tr><td>L</td><td>Lock / unlock the selection (or the track)</td></tr>
+      <tr><td>M / S</td><td>Mute / solo the selected track</td></tr>
+      <tr><td>Space</td><td>Play / pause</td></tr>
+      <tr><td>Ctrl + Z / Y</td><td>Undo / redo</td></tr>
+      <tr><td>Ctrl + S / O</td><td>Save / open</td></tr>
+      <tr><td>Clip top strip</td><td>Drag to move, Ctrl-drag to copy, edges to resize</td></tr>
+      <tr><td>Piano roll</td><td>Click to add, drag to move/resize, right-click to delete, Shift-click multi-select, Ctrl+A all, Ctrl+wheel velocity, Alt = no snap</td></tr>
+      <tr><td>Ctrl + mouse wheel</td><td>Zoom the timeline in and out (or the − Fit + buttons above the track names)</td></tr>
+      <tr><td>Claude Code</td><td>Compose from Claude Code on your Claude plan (no API cost): see CLAUDE_CODE.md in the Synthient folder</td></tr>
+      <tr><td>Drop files</td><td>Audio or MIDI onto a track, or empty space for a new track</td></tr>
+    </table>
+    <div class="dialog-buttons"><button id="help-tutorial">Show the tutorial</button><button id="help-close">Close</button></div>
+  </dialog>
+
+  <dialog id="crash-dialog" class="app-dialog crash">
+    <h3 id="crash-title">Synthient closed unexpectedly</h3>
+    <p>Sorry about that. You can help fix it by posting the crash report as a GitHub issue
+      (needs a free GitHub account).</p>
+    <ol>
+      <li><b>Create report</b> saves a zip with the log (and crash details) in Documents\Synthient\Crash reports and shows it.</li>
+      <li><b>Report on GitHub</b> opens a new issue in your browser with the title filled in. Drag the zip into it, and if you remember, say what you were doing.</li>
+    </ol>
+    <details open><summary>What the log says (<span id="crash-time"></span>)</summary><pre id="crash-log"></pre></details>
+    <p id="crash-status" class="hint"></p>
+    <div class="dialog-buttons">
+      <button id="crash-copy">Copy link</button>
+      <button id="crash-close">Close</button>
+      <button id="crash-make">Create report</button>
+      <button id="crash-mail" class="primary">Report on GitHub</button>
+    </div>
+  </dialog>
+
+  <dialog id="tutorial-dialog" class="app-dialog tutorial">
+    <div class="tutorial-step"><div class="tutorial-icon" id="tutorial-icon"></div><h3 id="tutorial-title"></h3><div id="tutorial-body"></div></div>
+    <div class="tutorial-dots" id="tutorial-dots"></div>
+    <div class="tutorial-footer">
+      <label><input type="checkbox" id="tutorial-hide"> Don't show this again</label>
+      <span class="spacer"></span>
+      <button id="tutorial-skip">Close</button>
+      <button id="tutorial-back">Back</button>
+      <button id="tutorial-next" class="primary">Next</button>
+    </div>
+  </dialog>
+
+  <dialog id="recovery-dialog" class="app-dialog">
+    <h3>Recover your song?</h3>
+    <p>Synthient didn't close normally last time. An autosave from <strong id="recovery-time"></strong> is available.</p>
+    <div class="dialog-buttons"><button id="recovery-no">Start fresh</button><button id="recovery-yes">Recover</button></div>
+  </dialog>
+
+  <dialog id="memory-dialog">
+    <h3>Producer memory</h3>
+    <p class="hint">Claude reads this before every request. Edit the rules or add your own preferences. Claude also adds notes here when you tell it what you like.</p>
+    <textarea id="memory-text" spellcheck="false"></textarea>
+    <div class="dialog-buttons"><button id="memory-cancel">Cancel</button><button id="memory-save">Save</button></div>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+diff --git a/modules/juce/modules/juce_gui_extra/misc/juce_WebBrowserComponent.cpp b/modules/juce/modules/juce_gui_extra/misc/juce_WebBrowserComponent.cpp
+index 96f6297..36aa3b6 100644
+--- a/modules/juce/modules/juce_gui_extra/misc/juce_WebBrowserComponent.cpp
++++ b/modules/juce/modules/juce_gui_extra/misc/juce_WebBrowserComponent.cpp
+@@ -422,7 +422,17 @@ public:
+         // We also need to escape the ' character since we use this to delimit the parameter string
+         // to emitByBackend.
+         const auto objectAsString = JSON::toString (object, true);
+-        const auto escaped = objectAsString.replace ("\\", "\\\\").replace ("'", "\\'");
++        // ClaudeDAW: one pass instead of two String::replace calls, which are quadratic in the
++        // number of matches and froze the UI for large results (e.g. Windows paths).
++        std::string escapedBytes;
++        escapedBytes.reserve (objectAsString.getNumBytesAsUTF8() + 64);
++        for (const auto* c = objectAsString.toRawUTF8(); *c != 0; ++c)
++        {
++            if (*c == '\\' || *c == '\'')
++                escapedBytes.push_back ('\\');
++            escapedBytes.push_back (*c);
++        }
++        const auto escaped = String::fromUTF8 (escapedBytes.data(), (int) escapedBytes.size());
+ 
+         evaluateJavascript ("window.__JUCE__.backend.emitByBackend(" + eventId.toString().quoted() + ", "
+                                 + escaped.quoted ('\'')

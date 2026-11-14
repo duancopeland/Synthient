@@ -1,0 +1,9 @@
+# Optional extra: Demucs stem separation (setup.cmd --with-stems). CPU-only torch wheels (~1 GB less than CUDA).
+# If a CUDA torch build is installed instead, analyze_track uses the GPU automatically.
+--index-url https://download.pytorch.org/whl/cpu
+--extra-index-url https://pypi.org/simple
+torch==2.15.0+cpu
+torchaudio==2.11.1+cpu
+demucs==4.1.0
+# demucs imports pkg_resources, which setuptools>=81 no longer ships
+setuptools==80.10.2

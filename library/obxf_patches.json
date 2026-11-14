@@ -1,0 +1,6349 @@
+{
+ "version": 1,
+ "patches": [
+  {
+   "name": "Aboard The Arp Train",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Atmospheres",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Atmospheres/Aboard The Arp Train.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Bouncing Phaser",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Atmospheres",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Atmospheres/Bouncing Phaser.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Gated Unstable Plucks",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Atmospheres",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Atmospheres/Gated Unstable Plucks.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "S&H Drone",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Atmospheres",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Atmospheres/S&H Drone.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Vibrores",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Atmospheres",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Atmospheres/Vibrores.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "'32 Rez Bass",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/'32 Rez Bass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "A Modern Day Warrior",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/A Modern Day Warrior.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Acoustic Bass",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Acoustic Bass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Back To The Future",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Back To The Future.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Below",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Below.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Blastine",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Blastine.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Definitely Below",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Definitely Below.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Didger Saw",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Didger Saw.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Diver",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Diver.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Dubber Bass",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Dubber Bass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Electric Bass 1",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Electric Bass 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Electric Bass 2",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Electric Bass 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Electric Bass 3 Muted",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Electric Bass 3 Muted.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Electric Bass 3",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Electric Bass 3.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Expanded",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Expanded.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Faxi Slap",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Faxi Slap.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Fretless Bass",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Fretless Bass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Hit It",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Hit It.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Ignitor",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Ignitor.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Meltomedia",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Meltomedia.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Muffler",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Muffler.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Nadir",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Nadir.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Ninja Turtle",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Ninja Turtle.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Notchsense",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Notchsense.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "OBX Bass 1",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/OBX Bass 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "OBX Bass 2",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/OBX Bass 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Outer Bass",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Outer Bass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Picked Bass",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Picked Bass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Possible Funk",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Possible Funk.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Rapider",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Rapider.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Retrowaver",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Retrowaver.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Rolling Bass",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Rolling Bass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Running Bass",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Running Bass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Sawdust",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Sawdust.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Slap Bass",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Slap Bass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Slim Jim",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Slim Jim.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Stealth Bass",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Stealth Bass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Thick Unison",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Thick Unison.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Uni Frog",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Uni Frog.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Veberly Hills",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Veberly Hills.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Velux",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Velux.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Watery Filter",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Watery Filter.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Whoa Bace",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Whoa Bace.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Xmod Stack",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Xmod Stack.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Xmodec",
+   "synth": "OB-Xf",
+   "category": "Bass",
+   "category_raw": "Basses",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Basses/Xmodec.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Bells",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Bells",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Bells/Bells.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Clicky Nostalgia",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Bells",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Bells/Clicky Nostalgia.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Inharm Bella",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Bells",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Bells/Inharm Bella.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Singing Noise",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Bells",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Bells/Singing Noise.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Stabbed Hand Pan",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Bells",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Bells/Stabbed Hand Pan.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Accented",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Accented.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Brass Section Chords",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Brass Section Chords.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Brass Stabs",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Brass Stabs.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Bright Mono Brass",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Bright Mono Brass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Bright Trombone",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Bright Trombone.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Euphonium Ensemble",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Euphonium Ensemble.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Euphonium",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Euphonium.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "French Horn Ensemble",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/French Horn Ensemble.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "French Horn",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/French Horn.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Horn Section",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Horn Section.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "J106 Brass",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/J106 Brass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "J60 Brass",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/J60 Brass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "J60 Sub PWM",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/J60 Sub PWM.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Might As Well...",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Might As Well....fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Obright Original",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Obright Original.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Obright Stereo",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Obright Stereo.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "ProphOBe",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/ProphOBe.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Prophet",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Prophet.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Pursuit Bright",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Pursuit Bright.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Pursuit Mono",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Pursuit Mono.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Reed Horns",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Reed Horns.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Silky Polybrass",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Silky Polybrass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Triumpher",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Triumpher.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Trombone Ensemble",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Trombone Ensemble.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Trombone",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Trombone.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Truimpher",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Truimpher.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Trumpet Ensemble",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Trumpet Ensemble.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Trumpet Muted",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Trumpet Muted.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Trumpet Soft",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Trumpet Soft.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Trumpet",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Trumpet.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tuba",
+   "synth": "OB-Xf",
+   "category": "Brass",
+   "category_raw": "Brass",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Brass/Tuba.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Broken Shakers",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Broken Shakers.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Brush Snare 1",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Brush Snare 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Brush Snare 2",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Brush Snare 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Brush Snare 3",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Brush Snare 3.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Crash Cymbal",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Crash Cymbal.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Deep Kick",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Deep Kick.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Electric Tom",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Electric Tom.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Gran Cassa",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Gran Cassa.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Hand Cymbal",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Hand Cymbal.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Hi-Hat Closed",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Hi-Hat Closed.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Hi-Hat Open",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Hi-Hat Open.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Kick 1",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Kick 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Kick 2",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Kick 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Kick 3",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Kick 3.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Kick 4",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Kick 4.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Kick 5",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Kick 5.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Kick Harder",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Kick Harder.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Kick Pitcher",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Kick Pitcher.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Kick Softer",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Kick Softer.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Marching Snare",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Marching Snare.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Ride Cymbal Bell",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Ride Cymbal Bell.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Ride Cymbal",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Ride Cymbal.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Sim Kick",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Sim Kick.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Sim Snare",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Sim Snare.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Sim Tom",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Sim Tom.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Snare 1",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Snare 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Snare 2",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Snare 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Snare 3",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Snare 3.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Snare 4",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Snare 4.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Snare 5",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Snare 5.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Snare Roll",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Snare Roll.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Timpani",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Timpani.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tom 1",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Tom 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tom 2",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Tom 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tom 3",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Drums",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Drums/Tom 3.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "BP Stacker",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/BP Stacker.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Bathtub Ducks",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Bathtub Ducks.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Borked Radio",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Borked Radio.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Bubbler",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Bubbler.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Downer Regular",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Downer Regular.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Downer Resonant",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Downer Resonant.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Downer Swoosh",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Downer Swoosh.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Electrons",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Electrons.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "FMer Runner",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/FMer Runner.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Fast Forward",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Fast Forward.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Filter Tone Drone",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Filter Tone Drone.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Flight Control",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Flight Control.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Frozen Radiation",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Frozen Radiation.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Glitch Heart",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Glitch Heart.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Grey Colony",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Grey Colony.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "I Broke It",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/I Broke It.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Lab Clock",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Lab Clock.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Laser Gun",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Laser Gun.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Magnetic Storm",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Magnetic Storm.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Metal Cross",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Metal Cross.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Moaning Wind",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Moaning Wind.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Mosquito",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Mosquito.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Nine Ten Done",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Nine Ten Done.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "OBX Jet",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/OBX Jet.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Psy Pow 1",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Psy Pow 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Psy Pow 2",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Psy Pow 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Pulsing Alarm",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Pulsing Alarm.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Race Condition",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Race Condition.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Robo Whisp",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Robo Whisp.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Sharp Blast",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Sharp Blast.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Strong Gusts Of Wind",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Strong Gusts Of Wind.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Thunder Malfunction",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Thunder Malfunction.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Uplift Regular",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Uplift Regular.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Uplift Resonant",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Uplift Resonant.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Uplift Swoosh",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Uplift Swoosh.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Use Delay",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Use Delay.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Void Blizzard",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Void Blizzard.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Wide Winds",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "FX",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/FX/Wide Winds.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Banjo",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Banjo.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Clean Guitar Chorus",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Clean Guitar Chorus.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Clean Guitar Muted",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Clean Guitar Muted.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Clean Guitar",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Clean Guitar.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Distorted Guitar 1",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Distorted Guitar 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Distorted Guitar 2",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Distorted Guitar 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Distorted Guitar Muted",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Distorted Guitar Muted.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Flageolet",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Flageolet.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Fret Noise",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Fret Noise.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Funk Guitar",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Funk Guitar.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Jazz Guitar",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Jazz Guitar.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Nylon String Guitar",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Nylon String Guitar.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Overdrive Guitar",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Overdrive Guitar.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Power Chord Muted",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Power Chord Muted.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Power Chord",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Power Chord.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Steel String Guitar DT",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Steel String Guitar DT.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Steel String Guitar",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Guitars",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Guitars/Steel String Guitar.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Accordion 1",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Accordion 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Accordion 2",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Accordion 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Accordion 3",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Accordion 3.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Accordion 4",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Accordion 4.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Accordion 5",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Accordion 5.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Accordion 6",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Accordion 6.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Acoustic Piano 1",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Acoustic Piano 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Acoustic Piano 2",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Acoustic Piano 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Almondo",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Almondo.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "An Ocean Song",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/An Ocean Song.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "An Ocean Swift",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/An Ocean Swift.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Anastasia",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Anastasia.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Arpsichord",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Arpsichord.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Blown Bottle",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Blown Bottle.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Brokeneon",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Brokeneon.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "CP Seventy",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/CP Seventy.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Celesta",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Celesta.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Clavinet",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Clavinet.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "E. Piano 1",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/E. Piano 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "E. Piano 2",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/E. Piano 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "E. Piano 3",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/E. Piano 3.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "E. Piano 4 Chorus",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/E. Piano 4 Chorus.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "E. Piano 4 Tremolo",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/E. Piano 4 Tremolo.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "E. Piano 4",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/E. Piano 4.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "E. Piano 5",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/E. Piano 5.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Early Piano",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Early Piano.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Elarisin",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Elarisin.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Elegant EP",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Elegant EP.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Everything",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Everything.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Evolution Arp",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Evolution Arp.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Formant Reeds",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Formant Reeds.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Galactikey",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Galactikey.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Good Ending",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Good Ending.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Gritty",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Gritty.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Guitary",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Guitary.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Harmonica",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Harmonica.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Harpkies",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Harpkies.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Harpsi",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Harpsi.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Harpsichord",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Harpsichord.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Honky Tonk",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Honky Tonk.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Icy Kalimba",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Icy Kalimba.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Interstellar Dark",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Interstellar Dark.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "It's an OB-X!",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/It's an OB-X!.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "J60 Neon Main",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/J60 Neon Main.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "J60 Neon PW 1",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/J60 Neon PW 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "J60 Neon PW 2",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/J60 Neon PW 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "JX E. Piano 1",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/JX E. Piano 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "JX E. Piano 2",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/JX E. Piano 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "JX E. Piano 3",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/JX E. Piano 3.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Kawari",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Kawari.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Leakeys",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Leakeys.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Lighthearted",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Lighthearted.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Lo-Fi Piano",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Lo-Fi Piano.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "MelloWow",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/MelloWow.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Moon Piano 1",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Moon Piano 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Moon Piano 2",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Moon Piano 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Moon Piano 3",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Moon Piano 3.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Mouth Keys",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Mouth Keys.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "No Fate",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/No Fate.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "No Longer Do I Tread The Sand Barefoot",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/No Longer Do I Tread The Sand Barefoot.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Noireon",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Noireon.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "OB Piano",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/OB Piano.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "OBX Clavinet",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/OBX Clavinet.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Obiekies",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Obiekies.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Old Timer Piano",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Old Timer Piano.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "PleasanTri",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/PleasanTri.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Polee Quaire",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Polee Quaire.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Porta-Keys",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Porta-Keys.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Pulled PWM",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Pulled PWM.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Reed Organ",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Reed Organ.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Return Youngman",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Return Youngman.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Rondo",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Rondo.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "SEM Piano",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/SEM Piano.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Santori Time",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Santori Time.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Separate Journey",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Separate Journey.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Siner",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Siner.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Smoothful",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Smoothful.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Space Bells",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Space Bells.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Spacekies",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Spacekies.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Subtle",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Subtle.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Subtler",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Subtler.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Sweet Spot",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Sweet Spot.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "The Cold Seventh",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/The Cold Seventh.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Thin Plinky",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Thin Plinky.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Twindlin'",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Twindlin'.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Zen Garden",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Keys",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Keys/Zen Garden.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "2077 Lead",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/2077 Lead.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "8VM Lead",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/8VM Lead.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Abyss Lead",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Abyss Lead.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Dimmerton",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Dimmerton.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Drunk Glider",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Drunk Glider.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Fire Dragon",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Fire Dragon.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Five Double",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Five Double.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Five Eight Toy",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Five Eight Toy.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Formant Lead",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Formant Lead.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Freak Mod",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Freak Mod.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "FunKey",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/FunKey.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Funk Lead",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Funk Lead.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Funky Cat",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Funky Cat.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Funky Munky",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Funky Munky.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Gasp Lead",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Gasp Lead.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Halogenic",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Halogenic.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Heverly Bills",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Heverly Bills.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Mean Lead",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Mean Lead.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Miwara",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Miwara.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Mono Monsta",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Mono Monsta.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Monoplane Glide",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Monoplane Glide.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Muuger",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Muuger.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Plasticon",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Plasticon.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Pulsapart",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Pulsapart.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Pulsrage",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Pulsrage.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Recorders",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Recorders.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Resweeper",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Resweeper.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Rock Unison",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Rock Unison.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "SIDicious",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/SIDicious.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Saucer",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Saucer.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Scanners",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Scanners.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Shadow Sync",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Shadow Sync.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Skreecher",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Skreecher.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Smother Lead",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Smother Lead.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Strained Filtah",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Strained Filtah.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Street Hawk",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Street Hawk.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Super-Saw",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Super-Saw.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Thruster",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Thruster.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tri-Things",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Tri-Things.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tungsten Sync",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Tungsten Sync.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Unison Fear",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Unison Fear.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Unison SIDicious",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Unison SIDicious.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Xcentor",
+   "synth": "OB-Xf",
+   "category": "Lead",
+   "category_raw": "Leads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Leads/Xcentor.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Glockenspiel",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Mallets",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Mallets/Glockenspiel.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Mallet Release",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Mallets",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Mallets/Mallet Release.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Mallet Synth",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Mallets",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Mallets/Mallet Synth.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Marimba",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Mallets",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Mallets/Marimba.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Simple Mallet",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Mallets",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Mallets/Simple Mallet.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Steel Drums",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Mallets",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Mallets/Steel Drums.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tubular Bells",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Mallets",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Mallets/Tubular Bells.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Vibraphone",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Mallets",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Mallets/Vibraphone.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Xylophone",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Mallets",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Mallets/Xylophone.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Carborgen",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Carborgen.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Church Organ",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Church Organ.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Continental",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Continental.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Haunted Reeds",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Haunted Reeds.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Klassika",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Klassika.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Laurens Organ",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Laurens Organ.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Oberphisa",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Oberphisa.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Old Timer",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Old Timer.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Organ Flutes",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Organ Flutes.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Percussive Organ 1",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Percussive Organ 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Percussive Organ 2",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Percussive Organ 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Rocker",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Rocker.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Rotary Organ 1",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Rotary Organ 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Rotary Organ 2",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Rotary Organ 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Rotary Organ 3",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Rotary Organ 3.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Rotary Organ",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Rotary Organ.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tonewheels",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Tonewheels.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Transistorg",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Transistorg.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Wrong Organ",
+   "synth": "OB-Xf",
+   "category": "Keys",
+   "category_raw": "Organs",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Organs/Wrong Organ.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "5 AM Pad",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/5 AM Pad.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Astheas",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Astheas.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Aziteta",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Aziteta.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Breathe",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Breathe.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Canada",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Canada.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Carbonized",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Carbonized.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Childhood",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Childhood.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Cry In The Sky",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Cry In The Sky.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Cythrata",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Cythrata.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Dark Future",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Dark Future.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Dhyana",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Dhyana.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Die Alone",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Die Alone.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Discovery",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Discovery.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Dramady More",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Dramady More.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Dreaming Anew",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Dreaming Anew.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Emoshi",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Emoshi.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Ephur",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Ephur.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Eternal Departure",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Eternal Departure.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Fading Memory",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Fading Memory.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Fissures",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Fissures.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Fizzy",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Fizzy.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Flowcasionally",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Flowcasionally.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Give It Time",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Give It Time.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Glitchorin",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Glitchorin.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "In Sweep",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/In Sweep.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "It's Complicated",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/It's Complicated.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Just A Pad",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Just A Pad.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Minor 6",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Minor 6.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Minthus",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Minthus.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Mission To Mars",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Mission To Mars.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Morning Glow",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Morning Glow.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "My Maya",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/My Maya.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Nanotube",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Nanotube.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "New Day",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/New Day.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "OB One",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/OB One.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "OBelisk",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/OBelisk.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Ocean Pits",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Ocean Pits.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Optyd",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Optyd.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Other Dream",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Other Dream.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Othirs",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Othirs.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Ounor",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Ounor.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Quozosm",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Quozosm.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Remembrance",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Remembrance.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Rich",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Rich.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Ripley",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Ripley.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Sadness Radio",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Sadness Radio.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Seocang",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Seocang.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Settling",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Settling.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Soriniscape",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Soriniscape.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Sun Ray",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Sun Ray.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Super Drama",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Super Drama.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Sweeprise",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Sweeprise.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tremolo Choir",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Tremolo Choir.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tremolo",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Tremolo.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Unfolding",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Unfolding.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Usthavur",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Usthavur.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Vintage Swell",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Vintage Swell.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Violord",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Violord.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Walking On Shells",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Walking On Shells.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Warmth",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Warmth.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Wasteland One",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Wasteland One.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Wasteland Two",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Wasteland Two.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Waveling",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Waveling.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Xatal",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Pads",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Pads/Xatal.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Bongo",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Percussion",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Percussion/Bongo.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Conga Muted",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Percussion",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Percussion/Conga Muted.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Conga",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Percussion",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Percussion/Conga.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Cowbell",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Percussion",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Percussion/Cowbell.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Heart Kick",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Percussion",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Percussion/Heart Kick.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Pan Drum",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Percussion",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Percussion/Pan Drum.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Robo Percer",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Percussion",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Percussion/Robo Percer.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Shaker",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Percussion",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Percussion/Shaker.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Taiko",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Percussion",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Percussion/Taiko.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tambourine",
+   "synth": "OB-Xf",
+   "category": "Percussion",
+   "category_raw": "Percussion",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Percussion/Tambourine.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Acidisillification",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Plucks",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Plucks/Acidisillification.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Bright Side",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Plucks",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Plucks/Bright Side.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Firefly Embers",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Plucks",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Plucks/Firefly Embers.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "J60 PWM Pluck",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Plucks",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Plucks/J60 PWM Pluck.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "J60 Saw Pluck",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Plucks",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Plucks/J60 Saw Pluck.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "On Bent Key",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Plucks",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Plucks/On Bent Key.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Pacer",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Plucks",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Plucks/Pacer.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Pizzi",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Plucks",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Plucks/Pizzi.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Riff Structure",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Plucks",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Plucks/Riff Structure.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Simple Saw Pluck",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Plucks",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Plucks/Simple Saw Pluck.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Small Steps",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Plucks",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Plucks/Small Steps.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Voyet Sqrx",
+   "synth": "OB-Xf",
+   "category": "Pluck",
+   "category_raw": "Plucks",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Plucks/Voyet Sqrx.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Clicky",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Clicky.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Dark Wave",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Dark Wave.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Green Fury",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Green Fury.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Hold One Back",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Hold One Back.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "In The Sky",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/In The Sky.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Incenses",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Incenses.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Into Cinemas",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Into Cinemas.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "It Is Alive",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/It Is Alive.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Noiser",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Noiser.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Oleinized",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Oleinized.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Overvolt",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Overvolt.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Radio Sizzle",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Radio Sizzle.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Rain On The Roof",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Rain On The Roof.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Sand For Breakfast",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Sand For Breakfast.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Saucer",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Saucer.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Scratch Beat",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Scratch Beat.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Serious Intentions",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Serious Intentions.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Taj Syncer",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/Taj Syncer.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "VHS Gallop",
+   "synth": "OB-Xf",
+   "category": "FX",
+   "category_raw": "Soundscapes",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Soundscapes/VHS Gallop.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Attack Strings",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Attack Strings.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Cello",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Cello.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Double Bass",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Double Bass.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Fast Strings",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Fast Strings.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Gentle Synthy Ensemble",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Gentle Synthy Ensemble.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Harmonic Sweep Strings",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Harmonic Sweep Strings.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Harp",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Harp.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "High Strings",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/High Strings.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Low Strings",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Low Strings.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Marcato Strings",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Marcato Strings.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Pizzicato Strings",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Pizzicato Strings.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Soft Strings",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Soft Strings.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Sombre Dance",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Sombre Dance.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "String Machine",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/String Machine.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "String Section Large",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/String Section Large.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "String Section Small",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/String Section Small.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Stringesque",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Stringesque.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Swept Tremolo Strings",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Swept Tremolo Strings.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tremolo Strings",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Tremolo Strings.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Uneasy Strings",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Uneasy Strings.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Viola",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Viola.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Violin",
+   "synth": "OB-Xf",
+   "category": "Strings",
+   "category_raw": "Strings",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Strings/Violin.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Choir Aah 1",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Voices",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Voices/Choir Aah 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Choir Aah 2",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Voices",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Voices/Choir Aah 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Choir Ooh 1",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Voices",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Voices/Choir Ooh 1.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Choir Ooh 2",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Voices",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Voices/Choir Ooh 2.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Choirah",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Voices",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Voices/Choirah.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Fuath",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Voices",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Voices/Fuath.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Heli",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Voices",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Voices/Heli.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Missa Pro",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Voices",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Voices/Missa Pro.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Whoa, Easier!",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Voices",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Voices/Whoa, Easier!.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Woe Woe",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Voices",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Voices/Woe Woe.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Woo-Aah",
+   "synth": "OB-Xf",
+   "category": "Pad",
+   "category_raw": "Voices",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Voices/Woo-Aah.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Alto Sax Ensemble",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Alto Sax Ensemble.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Alto Sax Growl",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Alto Sax Growl.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Alto Sax",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Alto Sax.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Baritone Sax",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Baritone Sax.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Bassoon",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Bassoon.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Clarinet Ensemble",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Clarinet Ensemble.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Clarinet",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Clarinet.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "English Horn",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/English Horn.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Flute",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Flute.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Oboe",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Oboe.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Piccolo",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Piccolo.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Reeder",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Reeder.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Soprano Sax",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Soprano Sax.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tenor Sax Ensemble",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Tenor Sax Ensemble.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tenor Sax Soft",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Tenor Sax Soft.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Tenor Sax",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Tenor Sax.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  },
+  {
+   "name": "Vuvuzela Jam",
+   "synth": "OB-Xf",
+   "category": "Winds",
+   "category_raw": "Winds",
+   "author": "OB-Xf factory",
+   "path": "plugins/OB-Xf-assets/Surge Synth Team/OB-Xf/Patches/Winds/Vuvuzela Jam.fxp",
+   "source": "factory",
+   "tags": [
+    "analog",
+    "warm"
+   ]
+  }
+ ]
+}

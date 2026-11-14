@@ -1,0 +1,11 @@
+# Surge patch index notes
+- Script: library/tools/build_surge_index.py (stdlib only); output: library/surge_patches.json (version 1).
+- Walks patches_factory (637 files) and patches_3rdparty (2371 files); parses the <meta> tag from the embedded XML by regex.
+- 2887 patches indexed, 121 excluded (Templates, Tutorials, MPE, Init*). Names are unique (" (<author>)" suffix on duplicates).
+- Fields: name, category (normalised), category_raw, author, path (relative to library/), comment (if any), source.
+- Counts: Bass 420, Pad 402, Lead 395, FX 365, Keys 279, Pluck 243, Percussion 233, Other 147, Polysynth 127, Sequence 122.
+- Also: Winds 54, Chords 28, Strings 25, Brass 23, Split 21, Vocoder 3.
+- Meta category sometimes holds junk (author/pack names, "Author\Cat"); the last path segment is tried, then the folder name.
+- "Other" (147) is mostly 3rd-party patches with pack-name categories and no usable folder; guitars map to Pluck, bells to Keys.
+- Factory patches with no author get "Surge Synth Team". Comments keep raw entities like &#x0D;&#x0A;.
+- Rerun: python library/tools/build_surge_index.py

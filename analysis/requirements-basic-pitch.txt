@@ -1,0 +1,3 @@
+# Installed with --no-deps: basic-pitch 0.4.0 declares tensorflow<2.15.1 for Python>=3.11, which has no
+# Python 3.12 wheel. We run its bundled ONNX model through onnxruntime instead (deps in requirements.txt).
+basic-pitch==0.4.0
