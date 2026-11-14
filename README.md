@@ -5,9 +5,11 @@ drum grid, VST3 instruments and effects, automation and mixing, or have Claude w
 you: describe a part in plain words and watch it appear on the tracks, then grab it and change it
 by hand. Every change Claude makes is a normal edit, so you can see it, move it and undo it.
 
-[![Claude Made This Song: Uplifting Video Game Music with a Sax Hook (Synthient, AI music workstation)](https://img.youtube.com/vi/QAS_1Bj19Xg/maxresdefault.jpg)](https://youtu.be/QAS_1Bj19Xg)
+| [![Claude Made This Song: Uplifting Video Game Music with a Sax Hook](https://img.youtube.com/vi/QAS_1Bj19Xg/maxresdefault.jpg)](https://youtu.be/QAS_1Bj19Xg) | [![Claude Made This Funk Track: Slap Bass, Rhodes and Brass](https://img.youtube.com/vi/UNV-MSRU9-Y/maxresdefault.jpg)](https://youtu.be/UNV-MSRU9-Y) |
+|:---:|:---:|
+| ▶ **[Uplifting video game music with a sax hook](https://youtu.be/QAS_1Bj19Xg)** | ▶ **[A funk track: slap bass, Rhodes and brass](https://youtu.be/UNV-MSRU9-Y)** |
 
-▶ **[Watch Synthient in action on YouTube](https://youtu.be/QAS_1Bj19Xg)**: Claude composes an uplifting video game track with a sax hook.
+Both songs were made by Claude inside Synthient.
 
 Open source under the GNU AGPL v3 (see [LICENSE](LICENSE)), as JUCE (AGPLv3) and Tracktion Engine
 (GPLv3 or later) require.
