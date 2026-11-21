@@ -6,7 +6,7 @@ const native = Object.fromEntries(
   [
     "getState", "runTool", "claudeRequest", "play", "stop", "setPosition", "undo", "redo",
     "openDeviceWindow", "scanPlugins", "audioSettings", "chooseSample",
-    "newSong", "openSong", "saveSong", "exportWav", "exportWavTo",
+    "newSong", "openSong", "saveSong", "saveSongQuietly", "exportWav", "exportWavTo",
     "analyzeAudio", "scanSampleFolder", "getSampleIndex", "readMemory", "writeMemory",
     "exportAudio", "exportStems", "exportMidi", "defaultExportPath", "importMedia", "getRecovery", "recover", "getTransport", "notifyDone", "getInstrumentIndex", "separateStems", "getSynthPatchIndex", "getLibraryPath", "scanPluginsNow", "logEvent", "previewNotes", "openInstrumentsFolder", "rescanUserInstruments", "getMidiClipIndex", "getCrashReport", "makeCrashReport", "openIssue", "bridgeReady", "bridgeReply",
   ].map((n) => [n, getNativeFunction(n)])
@@ -991,6 +991,7 @@ function describeToolCall(use, result) {
     case "lock": return `🔒 Locked ${trackName(i.track)}${i.start_bar ? ` bars ${i.start_bar}–${i.end_bar - 1}` : ""}`;
     case "unlock": return `🔓 Unlocked ${trackName(i.track)}${i.start_bar ? ` bars ${i.start_bar}–${i.end_bar - 1}` : ""}`;
     case "import_midi": return `♪ Imported MIDI: ${result.notes} notes`;
+    case "save_song": return `💾 Saved ${result.path}`;
     case "export_song": return `⇩ Exported ${result.path}`;
     case "export_stems": return `⇩ Exported ${result.files} stems to ${result.folder}`;
     case "export_midi": return `⇩ Exported ${result.path}`;
@@ -1230,6 +1231,10 @@ const localTools = {
     return { result: { ok: true, presets: list } };
   },
   apply_preset: async (i) => ({ result: await applyPreset(i.track, i.preset) }),
+  save_song: async (i) => {
+    const r = await native.saveSongQuietly(i.name ?? "");
+    return { result: r?.ok ? { ok: true, path: r.value } : r };
+  },
   export_song: async (i) => {
     const path = await native.defaultExportPath(i.name || songName(), i.format);
     const r = await native.exportWavTo(path);

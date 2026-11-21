@@ -291,6 +291,11 @@ export const TOOLS = [
     }),
   },
   {
+    name: "save_song",
+    description: "Save the song file (.tracktionedit) without any dialog, like the user pressing Save. If the song already has a file it is saved over that file; an untitled song is saved to Documents\\Synthient\\Songs\\<name>.tracktionedit (an existing file there is never overwritten) and keeps saving there afterwards. Give name only for a new file (Save as). Returns the path. Save when the user asks, and when you finish making a new song.",
+    input_schema: obj({ name: { type: "string" } }),
+  },
+  {
     name: "export_song",
     description: "Render the whole song to Documents\\Synthient\\Exports as wav, mp3 (320 kbps), ogg or flac. Returns the file path.",
     input_schema: obj({ format: { type: "string", enum: ["wav", "mp3", "ogg", "flac"] }, name: { type: "string" } }, ["format"]),

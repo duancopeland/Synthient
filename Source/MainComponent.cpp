@@ -330,6 +330,27 @@ WebBrowserComponent::Options MainComponent::createBrowserOptions()
         {
             done (result (song->save (File (args[0].toString()))));
         })
+        .withNativeFunction ("saveSongQuietly", [this] (Args args, Completion done)
+        {
+            // Claude's save_song: Save without any dialog. An untitled song goes to
+            // Documents\Synthient\Songs\<name>.tracktionedit (never over an existing file)
+            // and keeps that file for later saves.
+            const String name = args.size() > 0 ? args[0].toString().trim() : String();
+            File target = song->getFile();
+
+            if (target == File() || name.isNotEmpty())
+            {
+                auto dir = getDocumentsDir().getChildFile ("Songs");
+                dir.createDirectory();
+                auto legal = File::createLegalFileName (name.isNotEmpty() ? name : String ("Synthient song"));
+                target = dir.getChildFile (legal + ".tracktionedit");
+                if (target != song->getFile() && target.exists())
+                    target = dir.getNonexistentChildFile (legal, ".tracktionedit", false);
+            }
+
+            const auto error = song->save (target);
+            done (result (error, target.getFullPathName()));
+        })
         .withNativeFunction ("loadSongFrom", [this] (Args args, Completion done)
         {
             done (result (song->load (File (args[0].toString()))));

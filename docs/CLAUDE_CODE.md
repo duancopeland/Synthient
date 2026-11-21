@@ -57,8 +57,9 @@ Example requests:
   `MAX_MCP_OUTPUT_TOKENS` environment variable.
 - Very long calls (render_and_analyze, exports of long songs) are bounded by Claude Code's MCP tool
   timeout; if one times out, raise it with the `MCP_TOOL_TIMEOUT` environment variable (milliseconds).
-- Claude Code works on whatever song is open in Synthient right now. Save your work as usual;
-  Claude Code doesn't save unless asked (and can't press Save in dialogs).
+- Claude Code works on whatever song is open in Synthient right now. It saves with `save_song`
+  (no dialog): over the song's own file, or for an untitled song to
+  `Documents\Synthient\Songs\<name>.tracktionedit`. It saves when you ask and when it finishes a new song.
 - Things that open a window or a file dialog (separate stems, plug-in windows) appear in Synthient
   and need you there.
 - If two copies of Synthient are open, Claude Code talks to the one started last.
